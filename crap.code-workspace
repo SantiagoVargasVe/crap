@@ -1,0 +1,31 @@
+{
+  "folders": [
+    {
+      "name": "🏠 Root",
+      "path": ".",
+    },
+    {
+      "name": "🎫 portfolio",
+      "path": "apps/web",
+    },
+    {
+      "name": "📦 packages",
+      "path": "packages",
+    },
+  ],
+
+  "settings": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.fixAll.stylelint": "explicit",
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/.history": true,
+      "**/coverage": true,
+      "**/dist": true,
+    },
+  },
+}
